@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title,
+.texts-1,
+.texts-3,
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texts-2,
+.texts-4 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.card-1,
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 450px;
+  padding: 0 20px 0 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.cancel {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 2rem;
+}
+
+.terms {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  border: 1.5px solid #000000;
+  transition: 0.2s all;
+}
+
+.feelings {
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.2s all;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer a {
+  color: #000;
+}
